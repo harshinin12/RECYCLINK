@@ -1,5 +1,6 @@
-**♻️ Recyclink: E-Waste Facility Locator
-**Recyclink is an innovative platform dedicated to promoting responsible electronic waste recycling. With location-based services, AI-powered chatbot assistance, and educational content, Recyclink connects users with recycling facilities and provides vital information to foster a sustainable future.
+**♻️ Recyclink: E-Waste Facility Locator**
+
+Recyclink is an innovative platform dedicated to promoting responsible electronic waste recycling. With location-based services, AI-powered chatbot assistance, and educational content, Recyclink connects users with recycling facilities and provides vital information to foster a sustainable future.
 
 🚀 Tech Stack
 Frontend
