@@ -1,0 +1,144 @@
+.contact-container {
+  max-width: 1200px;
+  margin: 4rem auto; /* Add margin top/bottom and center */
+  padding: 0 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color); /* Set background to light green */
+}
+
+.contact-main-heading {
+  text-align: center;
+  color: var(--primary-color); /* Use primary green color */
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.contact-sub-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+}
+
+.contact-intro-text {
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.contact-content {
+  display: flex;
+  gap: 4rem; /* Space between the two columns */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.contact-form-section,
+.contact-info-section {
+  flex: 1; /* Allow sections to grow and shrink */
+  min-width: 300px; /* Minimum width before wrapping */
+}
+
+.contact-form-section h2,
+.contact-info-section h2 {
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.form-group textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info-item i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-right: 1rem;
+  margin-top: 0.3rem; /* Align icon better with text */
+}
+
+.contact-info-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  font-size: 1.1rem;
+}
+
+.contact-info-item p {
+  margin: 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.contact-social-media {
+  margin-top: 3rem;
+}
+
+.contact-social-media h3 {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem; /* Space between social icons */
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Larger social icons */
+  height: 40px;
+  border-radius: 50%;
+  background-color: #eee; /* Light background for icons */
+  color: var(--text-color); /* Text color for icons */
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.social-icons a:hover {
+  background-color: var(--primary-color); /* Green background on hover */
+  color: white; /* White icon on hover */
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column; /* Stack columns on smaller screens */
+    gap: 2rem;
+  }
+}
+
+/* Reuse existing form-group, form-actions, button styles from main.css if applicable */ 
